@@ -1,2 +1,2 @@
-# sam-hooper-portfolio-website
-photography portfolio website to display the godlike genius of my younger brother
+// Sam Hooper Portfolio Website //
+The goal of this website is to create a multi page website to display the professional photography work of my brother and act as a place to attract clients.
