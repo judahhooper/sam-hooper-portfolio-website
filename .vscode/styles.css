@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(55, 55, 55, 0.8);
+    color: rgba(236, 236, 236, 0.8);
+    width: 100%;
+}
+
+header{
+    min-width: 1000px;
+    min-height: 625px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+a {
+    color: rgba(236, 236, 236, 0.8);
+    text-decoration: none;
+    cursor: [pointer];
+}
+.navbar {
+    display:flex;
+}
+.navbar p{
+    display: inline-block;
+    padding: 10px 10px;
+    text-align:center;
+    width: 66%;
+
+}
