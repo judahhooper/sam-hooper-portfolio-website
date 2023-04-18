@@ -21,6 +21,7 @@ header{
   
   .mySlides {
     display: none;
+    width: 100%;
   }
   
   
@@ -93,9 +94,7 @@ header{
     animation-duration: 1.5s;
   }
 
-  .mySlides{
-    width: 100%;
-  }
+
   
   @-webkit-keyframes fade {
     from {
@@ -148,7 +147,3 @@ footer {
     width: 100%;
 }
 
-a.mailto {
-    margin: 3px;
-    padding-bottom: 3px;
-}
