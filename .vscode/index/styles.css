@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
+    font-family: 'Bodoni Moda', serif;
 }
 
 header{
-    text-align: left;
+    text-align: center;
     width: 100%;
     padding: 10px 10px;
     margin: 10px 10px;
@@ -21,7 +22,7 @@ body {
 
 nav {
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 nav p{
 
@@ -46,8 +47,7 @@ footer {
     margin-top: 5px;
 }
 
-img {
-  max-height: 2500px;
-  max-width: 1680px;
 
-}
+
+
+
