@@ -9,7 +9,16 @@ header{
     width: 100%;
     padding: 10px 10px;
     margin: 10px 10px;
-    font-size: 17px;
+    font-size: 17px; 
+    display:flex;
+    justify-content: center;
+    transform: translate(-27%, 20%);
+}
+
+#mainhead{
+    background-color: #ffc506;
+    padding: 7px;
+    border-radius: 4px;
 }
 
 body {
@@ -19,10 +28,8 @@ body {
     padding:10px;
     margin:10px;
 }
-section {
-    display: flex;
-    scroll-snap-align: start;
-}
+
+
 nav {
     display:flex;
     justify-content: space-between;
@@ -36,6 +43,15 @@ nav p{
 a {
     color: rgba(0,0,0,1);
     text-decoration: none;
+}
+
+#testimonial1 {
+    inline-size: 200px;
+    position: fixed;
+    transform: translate(70%, -250%);
+    color: white;
+    font-size: 20px;
+    padding-bottom:0px;
 }
 
 section{
