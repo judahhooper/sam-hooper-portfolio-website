@@ -7,7 +7,9 @@
       "default",
       {
         "ignore": [
-          "user-select"
+          "user-select",
+          "-webkit-tap-highlight-color",
+          "min-height: auto"
         ]
       }
     ],
@@ -17,6 +19,7 @@
         "image-alt": "off"
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "css-prefix-order": "off"
   }
 }

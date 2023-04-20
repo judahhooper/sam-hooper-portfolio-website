@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- head section -->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,17 +15,60 @@
         font-family: 'Bondoni Moda', serif;
       }
     </style>
+    <link rel="stylesheet" href="../fullpageresources/fullpage.min.css">
   </head>
-  <header><a href='index.html'><h1>Sam Hooper Photography</h1></a></header>
-<body>
-  <nav>
-    <p><a href="pages/aboutme.html">About Me</a></p>
-    <p><a href="pages/portfolio.html">Portfolio</a></p>
-    <p id="bookingbutton"><a href="">Bookings and Enquiries</a></p>
-  </nav>
-  <div></div>
-  <footer>Sam Hooper Photography | <a id ='mailto' href= mailto:samhooperphotography@gmail.com>  samhooperphotography@gmail.com </a> | 
-    Website made by Judah Hooper</footer>
-</body>
-<script src="./js/carousel.js"></script>
+  <body>
+  <!-- implement fullpage  -->
+
+       <div id="fullpage">
+
+        <!-- section 1  -->
+
+        <section class="section s1"> 
+
+          <!-- header -->
+
+          <header>
+            <a href='index.html'><h1>Sam Hooper Photography</h1></a>
+          </header>
+
+          <!-- nav  -->
+
+          <nav>
+          <p><a href="pages/aboutme.html">About Me</a></p>
+          <p><a href="pages/portfolio.html">Portfolio</a></p>
+          <p id="bookingbutton"><a href="">Bookings and Enquiries</a></p>
+        </nav>
+
+        <!-- img1  -->
+
+        <img src="../resources/SAM1-7.jpeg" alt="smiling bride">
+
+      </section>
+
+      <!-- section 2  -->
+
+      <section class="section s2">
+          <img src="../resources/SAM-210.jpeg" alt="?">
+      </section>
+      
+      <!-- section 3  -->
+
+      <section class="section s3"><img src="../resources/SAM-213.jpeg" alt="?"></section>
+
+        <section class="section s4"> 
+        <img src="../resources/SAM-4.jpeg" alt="?"> 
+        <footer>Sam Hooper Photography | <a id ='mailto' href= mailto:samhooperphotography@gmail.com> samhooperphotography@gmail.com</a> | 
+          Website made by Judah Hooper
+        </footer>
+      </section>
+      </div>
+  
+
+
+  <!-- scripting -->
+  
+  <script src="../fullpageresources/fullpage.min.js"></script>
+  <script src="./js/index.js"></script>
+</body> 
 </html>
