@@ -7,7 +7,7 @@
 
 header{
     width: 100%;
-    padding: 10px 10px;
+    padding: 5px 10px;
     margin: 10px 10px;
     font-size: 17px; 
     display:flex;
@@ -18,26 +18,23 @@ header{
 #mainhead{
     background-color: #ffc506;
     padding: 7px;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 body {
     background-color:rgba(236, 236, 236, 1);
     color: rgba(0,0,0,1);
     width: 100%;
-    padding:10px;
-    margin:10px;
 }
 
 
-#navbar {
-    position: absolute;
-    z-index: 1;
-}
 nav {
     display:flex;
     justify-content: space-between;
+    max-width: 100%;
+    padding: 0px 10px;
 }
+
 
 nav p{
     padding: 10px 10px;
@@ -49,21 +46,11 @@ a {
     text-decoration: none;
 }
 
-#testimonial1 {
-    inline-size: 200px;
-    position: static;
-    transform: translate(70%, -250%);
-    color: white;
-    font-size: 20px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
 section {
     padding:0px;
     margin: 0px;
     max-width: 100%;
-max-height: 100%;
+    max-height: 100%;
 }
 
 
@@ -79,7 +66,10 @@ footer {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 .btn {
@@ -134,5 +124,6 @@ img {
     max-width: 5%;
     position: absolute;
     right: 5px;
-    bottom: 3px;
+    bottom: 2px;
+
   }
