@@ -29,6 +29,11 @@ body {
     margin:10px;
 }
 
+#s1 {
+    position: relative;
+}
+
+
 
 nav {
     display:flex;
@@ -47,11 +52,12 @@ a {
 
 #testimonial1 {
     inline-size: 200px;
-    position: fixed;
+    position: static;
     transform: translate(70%, -250%);
     color: white;
     font-size: 20px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 section{
@@ -78,7 +84,6 @@ max-height: 100%;
 
 img {
     max-width: 100%;
-    max-height: auto;
 }
 
 .btn {
