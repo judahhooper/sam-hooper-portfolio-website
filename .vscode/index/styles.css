@@ -11,6 +11,13 @@ body {
     width: 100%;
 }
 
+section {
+  padding:0px;
+  margin: 0px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 header {
     width: 100%;
     font-size: 1.45em; 
@@ -28,7 +35,7 @@ nav {
   }
 
 
-  #page1testimonial{
+  #page1testimonial1{
     width: 25%;
     margin: -10vh;
     position: relative;
@@ -36,6 +43,13 @@ nav {
     transform: translate(50%, -400%);
   }
 
+#page1testimonial2 {
+    width: 25%;
+    margin: -20vh;
+    position: relative;
+    font-size: 1.2em;
+    transform: translate(325%, -200%);
+}
 
 
 #slide1btn {
@@ -51,9 +65,9 @@ nav {
     height: 4%;
     background-color: transparent;
     display:inline-block;
-    transform: translate(850%, -450%);
+    transform: translate(800%, -550%);
     text-align: center;
-    font-size: 1.2em;  
+    font-size: 1.4em;  
     padding: 0.5vh;
     display: none;
   }
@@ -142,19 +156,15 @@ a {
   color: black;
 }
 
-section {
-    padding:0px;
-    margin: 0px;
-    max-width: 100%;
-    max-height: 100%;
-}
 
 
-footer ul{
+
+footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     vertical-align: middle;
     position: relative;
+    margin: 2vh;
 }
 
 
@@ -167,9 +177,9 @@ img {
 }
 
 #insta {
-  transform: translate(800%, -10%);
+  transform: translate(800%, -10%);  
   height: 5%;
-  width: automatic;
+  width: auto;
 }
 
 
