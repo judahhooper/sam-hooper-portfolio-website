@@ -27,6 +27,30 @@ nav {
     width: 50%;
   }
 
+
+  #page1testimonial{
+    width: 25%;
+    margin: -10vh;
+    position: relative;
+    font-size: 1.2em;
+    transform: translate(50%, -400%);
+  }
+
+  #slide1btn {
+    position: relative;
+    width: 10%;
+    height: 4%;
+    background-color: green;
+    display:inline-block;
+    transform: translate(850%, -450%);
+    text-align: center;
+    font-size: 1.2em;  
+    vertical-align: middle;
+  }
+#img1{
+
+}
+
 #mainhead{
   color: rgba(236, 236, 236, 1); 
   margin-left: 3vh;
@@ -123,3 +147,4 @@ img {
     bottom: 2px;
     max-height: 20px;
   }
+
