@@ -150,16 +150,13 @@ section {
 }
 
 
-footer {
-    height:50px;
+footer ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     vertical-align: middle;
     position: relative;
-    width: 100%;
-    margin-top:10px;
-    margin-left: 10px;
 }
+
 
 
 img {
@@ -170,8 +167,11 @@ img {
 }
 
 #insta {
-
+  transform: translate(800%, -10%);
+  height: 5%;
+  width: automatic;
 }
+
 
 #fp-nav ul li .fp-tooltip {
   font-family: 'Bodoni Moda', serif;
