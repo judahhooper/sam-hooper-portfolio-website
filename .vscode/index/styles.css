@@ -32,6 +32,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 50%;
+
   }
 
 
@@ -156,7 +157,107 @@ a {
   color: black;
 }
 
+h2 {
+  font-size: 3em;
+  transform: translate(20%, -1000%);
+  margin: -10vh; 
+  color: white;
+  font-weight: bold;
+}
 
+.card {
+  background-color: transparent;
+  color: rgba(236, 236, 236, 1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  top: -70%;
+  left: 65%;
+  margin: -20vh;
+  opacity: 1;
+  position:relative;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(236, 236, 236, 1);
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group label {
+  font-size: 14px;
+  color: rgba(236, 236, 236, 1);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color:transparent;
+  transition: all .3s ease;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+  top: 10px;
+  background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+  border-color: black;
+  color: rgba(236, 236, 236, 1);
+}
+
+.form .group input:focus+ label, .form .group textarea:focus +label {
+  top: -10px;
+  left: 10px;
+  background-color: transparent;
+  color: rgba(236, 236, 236, 1);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form .group textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form button {
+  background-color: transparent;
+  color:rgba(236, 236, 236, 1);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background-color: none;
+  color: rgba(236, 236, 236, 1);
+}
 
 
 footer {
@@ -174,6 +275,7 @@ img {
     max-height: 100%;
     padding: 0;
     margin: 0;
+    opacity: 0.75;
 }
 
 #insta {
