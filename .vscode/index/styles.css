@@ -35,7 +35,6 @@ nav {
 
   }
 
-
   #page1testimonial1{
     width: 25%;
     margin: -10vh;
@@ -51,7 +50,6 @@ nav {
     font-size: 1.2em;
     transform: translate(325%, -200%);
 }
-
 
 #slide1btn {
     cursor: pointer;
